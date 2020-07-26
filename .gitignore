@@ -265,6 +265,10 @@ fabric.properties
 # See https://youtrack.jetbrains.com/issue/JBR-2257
 .idea/$CACHE_FILE$
 
+# See https://www.jetbrains.com/help/ruby/run-debug-configuration.html#share_configurations 
+/.idea/*
+!/.idea/runConfigurations
+
 ### SublimeText ###
 # Cache files for Sublime Text
 *.tmlanguage.cache
